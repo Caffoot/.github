@@ -18,20 +18,20 @@ Caffoot is an open-source project focused on making everyday IT infrastructure e
 
 ## Our projects
 
-### 🟠 [Caffoot Lite](https://github.com/Caffoot/Caffoot-Lite) — Available now
+### 🟠 [Caffoot Lite](https://github.com/Caffoot/Caffoot-Lite) — Two editions
 
-**Free, offline-first IP address management (IPAM), network inventory and IT asset tracking.**
+**Free, open-source IP address management, infrastructure inventory and rack documentation.**
 
 - Keep track of devices, IP addresses, subnets and reservations.
 - Organise equipment and visualise rack space.
-- Run from a standalone HTML file — no server, database or account required.
-- Export and import JSON backups to protect and move your inventory.
+- **v2.0 Docker/SQLite:** shared central database, administrator-managed users, MFA and authorised multi-user access. Install with Docker Compose or Portainer, including on Raspberry Pi 5.
+- **v1.3.3 standalone HTML:** run locally in a single browser, without a server or account. Export regular JSON inventory backups.
 
 [![Caffoot Lite dashboard](https://raw.githubusercontent.com/Caffoot/Caffoot-Lite/main/docs/screenshots/dashboard.png)](https://github.com/Caffoot/Caffoot-Lite)
 
-**[Download Caffoot Lite](https://github.com/Caffoot/Caffoot-Lite/releases/latest)** · [View features and screenshots](https://github.com/Caffoot/Caffoot-Lite#readme) · [Read the user guide](https://github.com/Caffoot/Caffoot-Lite/blob/main/USER-GUIDE.md)
+**[Get Caffoot Lite v2.0](https://github.com/Caffoot/Caffoot-Lite/releases/tag/v2.0)** · [Standalone v1.3.3](https://github.com/Caffoot/Caffoot-Lite/releases/tag/v1.3.3) · [Installation guide](https://github.com/Caffoot/Caffoot-Lite/blob/main/next/README.md) · [User guides](https://github.com/Caffoot/Caffoot-Lite/blob/main/docs/How%20To%27s/Features%20and%20Instructions/README.md)
 
-> **A note about Lite:** Inventory is stored in your browser. Export JSON backups regularly. Lite has no built-in authentication or multi-user backend and must not be exposed directly to the public internet. See the [security guidance](https://github.com/Caffoot/Caffoot-Lite/blob/main/SECURITY.md).
+> **Your data matters:** v2.0 keeps authoritative inventory in the server's persistent SQLite database, which you back up using trusted external Docker/volume tools. The standalone v1.3.3 edition stores inventory in the browser and needs regular JSON exports. The v1.3.3 JSON importer in v2.0 is for **one-way migration**, not ongoing database backups.
 
 ## Get involved
 
