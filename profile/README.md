@@ -33,12 +33,6 @@ Caffoot is an open-source project focused on making everyday IT infrastructure e
 
 > **A note about Lite:** Inventory is stored in your browser. Export JSON backups regularly. Lite has no built-in authentication or multi-user backend and must not be exposed directly to the public internet. See the [security guidance](https://github.com/Caffoot/Caffoot-Lite/blob/main/SECURITY.md).
 
-### 🔧 Caffoot Pro — Planned
-
-Caffoot Pro is envisioned as a more capable, server-based evolution of **Caffoot Lite**. Lite's design, workflows and core functionality will provide the foundation, with additional capabilities planned for environments that need more.
-
-Pro is **not yet available**. We will share details when the direction and implementation are ready.
-
 ## Get involved
 
 Caffoot is an evolving project. Explore [Caffoot Lite](https://github.com/Caffoot/Caffoot-Lite), report issues or suggest improvements through its [issue tracker](https://github.com/Caffoot/Caffoot-Lite/issues).
